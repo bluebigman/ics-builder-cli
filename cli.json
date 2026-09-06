@@ -1,0 +1,28 @@
+{
+ "runtime": {
+  "type": "node",
+  "version": "18"
+ },
+ "init": {
+  "darwin": "npm install -g git+https://github.com/bluebigman/ics-builder-cli.git",
+  "linux": "npm install -g git+https://github.com/bluebigman/ics-builder-cli.git",
+  "win32": "npm install -g git+https://github.com/bluebigman/ics-builder-cli.git"
+ },
+ "auth": {
+  "darwin": "ics-builder auth",
+  "linux": "ics-builder auth",
+  "win32": "ics-builder.cmd auth"
+ },
+ "unAuth": {
+  "darwin": "ics-builder unAuth",
+  "linux": "ics-builder unAuth",
+  "win32": "ics-builder.cmd unAuth"
+ },
+ "status": {
+  "darwin": "ics-builder status",
+  "linux": "ics-builder status",
+  "win32": "ics-builder.cmd status"
+ },
+ "statusMatch": "ok",
+ "authStrategy": "none"
+}

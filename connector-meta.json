@@ -1,0 +1,18 @@
+{
+ "name": "ics-builder-cli",
+ "type": "cli",
+ "version": "0.1.0",
+ "displayName": "日历 ICS 工具箱",
+ "description": "生成 .ics 日历事件/解析日历文件/多日历找空闲时段。纯本地文件处理，不同步任何云日历。",
+ "icon": "icon.svg",
+ "skills": [
+  "skills/SKILL.md"
+ ],
+ "minWorkbuddyVersion": "4.22.15",
+ "examples_zh": [
+  "生成一个明天下午 3 点的会议 ICS 并保存",
+  "解析这个日历文件有哪些事件",
+  "帮我在这两份日历里找空闲时间"
+ ],
+ "examples_en": []
+}
